@@ -12,6 +12,6 @@ Usage:
 <pre><code>
 #!/usr/bin/env ruby
 require 'VideoConversion.class.rb'
-v = VideoConversion.new(vid.chomp, 800, 100,"projekktor",1500,192)
+v = VideoConversion.new("<videofile>", 800, 100,"projekktor",1500,192)
 v.converter
 </code></pre>
